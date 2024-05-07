@@ -1,22 +1,22 @@
 # OOPs Concepts in Java with Examples:
 
-**Class Example:** class Car { String color; void accelerate() { ... } }
+** 1. Class Example:** class Car { String color; void accelerate() { ... } }
 
-**Object Example:** Car myCar = new Car();
+** 2. Object Example:** Car myCar = new Car();
 
-**Inheritance Example:** class ElectricCar extends Car { ... }
+** 3. Inheritance Example:** class ElectricCar extends Car { ... }
 
-**Polymorphism Example:** Method overloading and overriding.
+** 4. Polymorphism Example:** Method overloading and overriding.
 
-**Abstraction Example:** Abstract classes and interfaces.
+** 5. Abstraction Example:** Abstract classes and interfaces.
 
-**Encapsulation Example:** Private fields with public getters and setters.
+** 6. Encapsulation Example:** Private fields with public getters and setters.
 
 **`Advanced OOP Concepts`**
 
-**Association**, **Aggregation**, and **Composition**: These concepts define how objects interact and depend on each other.
+** * Association**, **Aggregation**, and **Composition**: These concepts define how objects interact and depend on each other.
 
-**Coupling** and **Cohesion**: Concepts focusing on the interdependence and responsibilities of classes in Java.
+** *Coupling** and **Cohesion**: Concepts focusing on the interdependence and responsibilities of classes in Java.
 
 # What is Abstraction?
 
