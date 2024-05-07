@@ -12,7 +12,7 @@ public class AbstractionAnimalLion extends  Animal {
         // Non-Abstract method call
         obj.catagory();
 
-        //we can call using any class object
+        //We can call using any class object
         abstractionAnimalLion.catagory();
         abstractionAnimalLion.sound();
     }
