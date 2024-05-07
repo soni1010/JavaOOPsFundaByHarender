@@ -1,5 +1,12 @@
 # OOPs Concepts in Java with Examples:
 
+**Class Example:** class Car { String color; void accelerate() { ... } }
+Object Example: Car myCar = new Car();
+Inheritance Example: class ElectricCar extends Car { ... }
+Polymorphism Example: Method overloading and overriding.
+Abstraction Example: Abstract classes and interfaces.
+Encapsulation Example: Private fields with public getters and setters.
+
 # What is Abstraction?
 
 Abstraction is a process which displays only the information needed and hides the unnecessary information. We can say that the main purpose of abstraction is data hiding. Abstraction means selecting data from a large number of data to show the information needed, which helps in reducing programming complexity and efforts.  
