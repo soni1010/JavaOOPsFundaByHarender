@@ -1,11 +1,16 @@
 # OOPs Concepts in Java with Examples:
 
 **Class Example:** class Car { String color; void accelerate() { ... } }
+
 **Object Example:** Car myCar = new Car();
-Inheritance Example: class ElectricCar extends Car { ... }
-Polymorphism Example: Method overloading and overriding.
-Abstraction Example: Abstract classes and interfaces.
-Encapsulation Example: Private fields with public getters and setters.
+
+**Inheritance Example:** class ElectricCar extends Car { ... }
+
+**Polymorphism Example:** Method overloading and overriding.
+
+**Abstraction Example:** Abstract classes and interfaces.
+
+**Encapsulation Example:** Private fields with public getters and setters.
 
 # What is Abstraction?
 
