@@ -2,8 +2,6 @@ package org.harender;
 
 public class AbstractionAnimalLion extends  Animal {
 
-
-
     public static void main ( String[] args) {
         AbstractionAnimalLion abstractionAnimalLion=new AbstractionAnimalLion();
         Animal obj = new AbstractionAnimalLion();
@@ -13,8 +11,9 @@ public class AbstractionAnimalLion extends  Animal {
         obj.catagory();
 
         //We can call using any class object
-        abstractionAnimalLion.catagory();
         abstractionAnimalLion.sound();
+        abstractionAnimalLion.catagory();
+
     }
 
     @Override
