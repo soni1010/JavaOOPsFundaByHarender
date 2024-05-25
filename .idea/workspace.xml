@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30993ef0-11be-41bc-adb6-3f3af8370e0c" name="Changes" comment="Addition of play with String in Java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/Collections/sample/PkgUnderPkg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ChildOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ChildTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/FirstLevelChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/MultiLevel_Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ParentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ParentClassOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/SecondLvlChildClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/harender/stringScenarios/PlayWithStringInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/harender/stringScenarios/PlayWithStringInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +63,34 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AbstractionAnimalLion.executor": "Run",
     "Application.ArrayDataStructure.executor": "Run",
+    "Application.ChildOne.executor": "Run",
+    "Application.ChildTwo.executor": "Run",
+    "Application.JavaListInterfaceBasedCollection.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MultiLevel_Inheritance.executor": "Run",
     "Application.Objects.executor": "Run",
+    "Application.PlayWithSort.executor": "Run",
     "Application.PlayWithStringInJava.executor": "Run",
+    "Application.SecondLvlChildClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Harender/IntelliJ_WS/JavaOOPsFundaByHarender/src/main/java/org/harender/Main.java"
+    "last_opened_file_path": "D:/Harender/IntelliJ_WS",
+    "onboarding.tips.debug.path": "D:/Harender/IntelliJ_WS/JavaOOPsFundaByHarender/src/main/java/org/harender/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PlayWithStringInJava">
-    <configuration name="AbstractionAnimalLion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.AbstractionAnimalLion" />
+  <component name="RunManager" selected="Application.SecondLvlChildClass">
+    <configuration name="ChildOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildOne" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.*" />
+          <option name="PATTERN" value="org.harender.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDataStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.dataStructure.ArrayDataStructure" />
+    <configuration name="ChildTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildTwo" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.dataStructure.*" />
+          <option name="PATTERN" value="org.harender.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.Main" />
+    <configuration name="MultiLevel_Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.MultiLevel_Inheritance" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Objects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.Objects" />
-      <module name="JavaOOPsFundaByHarender" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.harender.*" />
+          <option name="PATTERN" value="org.harender.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondLvlChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.SecondLvlChildClass" />
+      <module name="JavaOOPsFundaByHarender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.harender.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLvlChildClass" />
+        <item itemvalue="Application.MultiLevel_Inheritance" />
+        <item itemvalue="Application.ChildTwo" />
+        <item itemvalue="Application.ChildOne" />
         <item itemvalue="Application.PlayWithStringInJava" />
-        <item itemvalue="Application.ArrayDataStructure" />
-        <item itemvalue="Application.AbstractionAnimalLion" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Objects" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715757864897</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Addition of play with String in Java">
+      <option name="closed" value="true" />
+      <created>1715762644947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715762644947</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Addition of play with String in Java">
+      <option name="closed" value="true" />
+      <created>1716209204163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716209204163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
