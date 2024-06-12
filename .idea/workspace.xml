@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30993ef0-11be-41bc-adb6-3f3af8370e0c" name="Changes" comment="Addition of play with String in Java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/Collections/sample/PkgUnderPkg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ChildOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ChildTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/FirstLevelChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/MultiLevel_Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ParentClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/ParentClassOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/inheritance/SecondLvlChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="30993ef0-11be-41bc-adb6-3f3af8370e0c" name="Changes" comment="Addition of Some OOPs examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/Regex_ClarityInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/harender/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/harender/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +63,8 @@
     "Application.Objects.executor": "Run",
     "Application.PlayWithSort.executor": "Run",
     "Application.PlayWithStringInJava.executor": "Run",
+    "Application.Regex_ClarityInJava.executor": "Run",
+    "Application.Regex_ClearityInJava.executor": "Run",
     "Application.SecondLvlChildClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,9 +78,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecondLvlChildClass">
-    <configuration name="ChildOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildOne" />
+  <component name="RunManager" selected="Application.Regex_ClarityInJava">
+    <configuration name="ChildTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildTwo" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChildTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildTwo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.Main" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.inheritance.*" />
+          <option name="PATTERN" value="org.harender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayWithStringInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.stringScenarios.PlayWithStringInJava" />
+    <configuration name="Regex_ClarityInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.Regex_ClarityInJava" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.stringScenarios.*" />
+          <option name="PATTERN" value="org.harender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Regex_ClarityInJava" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SecondLvlChildClass" />
         <item itemvalue="Application.MultiLevel_Inheritance" />
         <item itemvalue="Application.ChildTwo" />
-        <item itemvalue="Application.ChildOne" />
-        <item itemvalue="Application.PlayWithStringInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716209204163</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Addition of Some OOPs examples">
+      <option name="closed" value="true" />
+      <created>1716616834442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616834443</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +247,7 @@
     <MESSAGE value="Abstraction finish" />
     <MESSAGE value="Abstraction updates" />
     <MESSAGE value="Addition of play with String in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of play with String in Java" />
+    <MESSAGE value="Addition of Some OOPs examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of Some OOPs examples" />
   </component>
 </project>
