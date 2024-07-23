@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30993ef0-11be-41bc-adb6-3f3af8370e0c" name="Changes" comment="Addition of Some OOPs examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/Regex_ClarityInJava.java" afterDir="false" />
+    <list default="true" id="30993ef0-11be-41bc-adb6-3f3af8370e0c" name="Changes" comment="Regex Tried">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/arrays/ArrayConcepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/arrays/CheckIfArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/arrays/DeclarationOfArraysInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/harender/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/harender/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,9 +56,12 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AbstractionAnimalLion.executor": "Run",
+    "Application.ArrayConcepts.executor": "Run",
     "Application.ArrayDataStructure.executor": "Run",
+    "Application.CheckIfArrayIsSorted.executor": "Run",
     "Application.ChildOne.executor": "Run",
     "Application.ChildTwo.executor": "Run",
+    "Application.DeclarationOfArraysInJava.executor": "Run",
     "Application.JavaListInterfaceBasedCollection.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiLevel_Inheritance.executor": "Run",
@@ -66,11 +71,14 @@
     "Application.Regex_ClarityInJava.executor": "Run",
     "Application.Regex_ClearityInJava.executor": "Run",
     "Application.SecondLvlChildClass.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.org.harender.arrays.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Harender/IntelliJ_WS",
+    "last_opened_file_path": "D:/Harender/IntelliJ_WS/JavaOOPsFundaByHarender",
     "onboarding.tips.debug.path": "D:/Harender/IntelliJ_WS/JavaOOPsFundaByHarender/src/main/java/org/harender/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -78,13 +86,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Regex_ClarityInJava">
-    <configuration name="ChildTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.ChildTwo" />
+  <component name="RunManager" selected="Application.DeclarationOfArraysInJava">
+    <configuration name="ArrayConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.arrays.ArrayConcepts" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.inheritance.*" />
+          <option name="PATTERN" value="org.harender.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.Main" />
+    <configuration name="CheckIfArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.arrays.CheckIfArrayIsSorted" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.*" />
+          <option name="PATTERN" value="org.harender.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiLevel_Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.MultiLevel_Inheritance" />
+    <configuration name="DeclarationOfArraysInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.arrays.DeclarationOfArraysInJava" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.inheritance.*" />
+          <option name="PATTERN" value="org.harender.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex_ClarityInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.Regex_ClarityInJava" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.arrays.Test" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.*" />
+          <option name="PATTERN" value="org.harender.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLvlChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.harender.inheritance.SecondLvlChildClass" />
+    <configuration name="org.harender.arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.harender.arrays.Main" />
       <module name="JavaOOPsFundaByHarender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.harender.inheritance.*" />
+          <option name="PATTERN" value="org.harender.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Regex_ClarityInJava" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SecondLvlChildClass" />
-        <item itemvalue="Application.MultiLevel_Inheritance" />
-        <item itemvalue="Application.ChildTwo" />
+        <item itemvalue="Application.DeclarationOfArraysInJava" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.org.harender.arrays.Main" />
+        <item itemvalue="Application.CheckIfArrayIsSorted" />
+        <item itemvalue="Application.ArrayConcepts" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716616834443</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Regex Tried">
+      <option name="closed" value="true" />
+      <created>1718175449496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718175449496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +264,7 @@
     <MESSAGE value="Abstraction updates" />
     <MESSAGE value="Addition of play with String in Java" />
     <MESSAGE value="Addition of Some OOPs examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of Some OOPs examples" />
+    <MESSAGE value="Regex Tried" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regex Tried" />
   </component>
 </project>
